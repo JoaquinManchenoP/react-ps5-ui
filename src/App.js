@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import "./App.css";
+import Header from "./components/Header/Header.component";
+import Ps5 from "./components/Header/ps5.component";
+import Store, { Context } from "./Store";
+import Grid from "@material-ui/core/Grid";
+import { motion, transform } from "framer-motion";
+import StartingComponent from "./components/StartingComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Store>
+        <Grid item xs={12}>
+          <StartingComponent />
+        </Grid>
+      </Store>
     </div>
   );
 }

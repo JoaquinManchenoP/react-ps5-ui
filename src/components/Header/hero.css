@@ -1,0 +1,6 @@
+.game-image > img {
+  overflow: hidden;
+
+  z-index: -1;
+  position: absolute;
+}

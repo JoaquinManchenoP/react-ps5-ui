@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.leftSide {
+  display: flex;
+}
+
+.leftItem {
+  margin: 10px;
+  color: white;
+}
+.rightSide {
+  display: flex;
+}
+.rightItem {
+  margin: 10px;
+  color: white;
+}

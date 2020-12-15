@@ -1,0 +1,9 @@
+.ps5ui {
+  height: 100vh;
+  width: 100vw;
+
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+
+  background-size: 100% 100%;
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.gameCard {
+  margin: 6px;
+}
+
+.cards {
+  display: flex;
+  padding: 40px 100px;
+}
